@@ -1,11 +1,11 @@
-package com.qproject.common.utils;
+package com.qandroid.common.utils;
 
 import android.content.Context;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.qproject.common.QBaseParam;
-import com.qproject.common.QConfig;
+import com.qandroid.common.QBaseParam;
+import com.qandroid.common.QConfig;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

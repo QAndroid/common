@@ -1,4 +1,4 @@
-package com.qproject.common;
+package com.qandroid.common;
 
 /**
  * 通用配置

@@ -1,4 +1,4 @@
-package com.qproject.common;
+package com.qandroid.common;
 
 public interface QBasePresenter {
     void start();

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.qproject.common.cache;
+package com.qandroid.common.cache;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedWriter;

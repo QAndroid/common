@@ -1,4 +1,4 @@
-package com.qproject.common;
+package com.qandroid.common;
 
 import android.app.Activity;
 import android.content.Intent;
