@@ -161,7 +161,7 @@ public class HttpsTools {
      * 执行登录Post请求
      */
     public static String doPost(Context context, QBaseParam params) {
-        String result = new String();
+        String result = "";
         try {
             String parasString = getParamsString(params);
             HttpsURLConnection httpsURLConnection = HttpsTools.getHttpsURLConnection(context, QConfig.SERVER_URL + "HttpsServlet", "POST");
@@ -197,7 +197,7 @@ public class HttpsTools {
         JSONObject jsonObject = (JSONObject) JSON.toJSON(params);
 
         int index = 0;
-        String parasString = new String();
+        String parasString = "";
 
         Set<String> keys = jsonObject.keySet();
         Iterator iterator = keys.iterator();
