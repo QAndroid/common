@@ -20,8 +20,6 @@ public class QBaseActivity extends AppCompatActivity {
 
     /**
      * 跳转到指定Activity的class对象的页面
-     *
-     * @param activityClass
      */
     protected void toActivityByClass(Class<? extends Activity> activityClass) {
         Intent intent = new Intent(this, activityClass);
